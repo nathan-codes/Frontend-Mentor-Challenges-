@@ -1,0 +1,70 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#mainSection {
+    height: 100vh;
+
+}
+
+.bd{
+    border: 1px solid red;
+}
+
+#leftSection {
+    background-image: url(/images/bg-pattern-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ 
+}
+
+#leftSection h1{
+    font-weight:600 ;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
+#leftSection span {
+    font-weight: 300;
+    color:hsl(0, 36%, 70%);
+}
+
+#leftSection p {
+    color:hsl(0, 36%, 70%);
+}
+
+#leftSection .contents {
+    
+    width: 60%;
+    padding: 60px;
+    
+}
+
+
+#leftSection input::-webkit-input-placeholder {
+    color: hsl(0, 36%, 70%);
+} 
+
+
+#leftSection input{
+    border: none;
+}
+
+
+
+#leftSection button {
+ background-image: linear-gradient(135deg, red,blue);
+}
+
+
+#leftSection button:hover {
+    background-color: orange;
+    border-color: white;
+    background-image: none;
+}
